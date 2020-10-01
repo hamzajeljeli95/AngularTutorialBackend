@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularTutorialBackend", "AngularTutorialBackend\AngularTutorialBackend.csproj", "{7A1C5DE5-B76F-4BCF-8A85-4DAEF950EAFF}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CommonLibrary", "CommonLibrary\CommonLibrary.shproj", "{84CCFB7A-B045-4B5B-927C-952BCF0CF371}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CommonLibrary\CommonLibrary.projitems*{7a1c5de5-b76f-4bcf-8a85-4daef950eaff}*SharedItemsImports = 5
+		CommonLibrary\CommonLibrary.projitems*{84ccfb7a-b045-4b5b-927c-952bcf0cf371}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A1C5DE5-B76F-4BCF-8A85-4DAEF950EAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A1C5DE5-B76F-4BCF-8A85-4DAEF950EAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A1C5DE5-B76F-4BCF-8A85-4DAEF950EAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A1C5DE5-B76F-4BCF-8A85-4DAEF950EAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D96D9F3-52E3-4330-9E92-BA1D3EC78DE7}
+	EndGlobalSection
+EndGlobal
