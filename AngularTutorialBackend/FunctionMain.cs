@@ -104,6 +104,7 @@ namespace AngularTutorialBackend
                     Prd.prod_desc = P.prod_desc;
                     Prd.prod_price = P.prod_price;
                     Prd.update_date = DateTime.Now.ToShortDateString();
+                    P = Prd;
                     break;
                 }
             }
